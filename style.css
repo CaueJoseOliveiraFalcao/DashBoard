@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.container-perfil {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 9px;
+    color: white;
+    padding: 2rem;
+}
+
+.img-perfil {
+    width: 80px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.sub-titulo {
+    color: rgb(212, 212, 212);
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.semanas {
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+.titulo-card{
+    font-size: 2rem;
+}
+.horas{
+    font-size: 4rem;
+}
+.grid-flix {
+    display: grid;
+    gap: 1rem;
+    justify-self: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-container1 {
+    grid-column: span 1;
+    grid-row: span 2;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container2 {
+    grid-column: span 1;
+    grid-row: span 1;
+    border-radius: 9px;
+    padding: 2rem;
+    color: white;
+    background-image: linear-gradient(to right, hsl(246, 80%, 60%), hsl(236, 100%, 87%));
+}
+
+.grid-container3 {
+    grid-column: span 1;
+    grid-row: span 2;
+    border-radius: 9px;
+    padding: 2rem;
+    color: white;
+    background-image: linear-gradient(to right, hsl(246, 80%, 60%), hsl(236, 100%, 87%));
+    ;
+}
